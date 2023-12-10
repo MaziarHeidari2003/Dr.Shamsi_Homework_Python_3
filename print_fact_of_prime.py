@@ -1,4 +1,17 @@
-n = int(input("Enter the number, I will find the prime numbers less tahn it and print their fact: "))
+#PROBLEM 2
+
+while True :
+  n = int(input("Enter the number, I will find the prime numbers less than it and print their fact: "))
+  if n < 0 :
+    print("No negative values! Try again.")
+  elif n == 2 :
+    print("There is no prime postive numbers less than 2")  
+  elif n == 1 :
+    print("There is no prime postive numbers less than 1")
+  elif n == 0 :
+    print("There is no prime positive numbers less than 0")    
+  else:
+    break  
 
 for i in range(1,n) :
   m = 1
