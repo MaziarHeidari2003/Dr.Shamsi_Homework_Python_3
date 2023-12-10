@@ -1,3 +1,5 @@
+#PROBLEM 3
+
 word = input("Enter the word: ")
 new_word = ''
 for char in word :
